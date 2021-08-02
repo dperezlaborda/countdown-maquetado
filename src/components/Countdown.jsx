@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import '../assets/css/coutdown.css';
+import '../assets/css/countdown.css';
 
 const Countdown = () => {
     return (
@@ -15,7 +15,7 @@ const Countdown = () => {
                             <p className="sub">Our exciting new website is coming soon! Check back later...</p>
                         </div>
                     </Col>
-                    <Col sm={12} md={12} lg={8}>
+                    <Col sm={12} md={12} lg={12}>
                         <Row className="container-coutdown mt-3">
                             <div className="clock">
                                 <div className="days clock-box">
