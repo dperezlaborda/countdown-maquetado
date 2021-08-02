@@ -2,7 +2,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 import '../assets/css/countdown.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGooglePlusG, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Countdown = () => {
     return (
@@ -36,13 +39,23 @@ const Countdown = () => {
                                 </div>
                             </div>
                         </Row>
-                        <div className="contact"></div>
-                        <div className="about"></div>
-                        <div className="social-media">
-                            <div className="facebook"></div>
-                            <div className="twitter"></div>
-                            <div className="instagram"></div>
-                            <div className="googlePlus"></div>
+                        <div className="mt-4">
+                            <Button className="text-uppercase btn-color">Contact Us</Button>
+                            <Button className="text-uppercase btn-border">About Us</Button>
+                        </div>
+                        <div className="social-media d-flex flex-direction-row mt-5">
+                            <div className="mx-3">
+                                <FontAwesomeIcon className="icon" icon={faFacebookF} />
+                            </div>
+                            <div className="mx-3">
+                                <FontAwesomeIcon className="icon" icon={faTwitter} />
+                            </div>
+                            <div className="mx-3">
+                                <FontAwesomeIcon className="icon" icon={faInstagram} />
+                            </div>
+                            <div className="mx-3">
+                                <FontAwesomeIcon className="icon" icon={faGooglePlusG} />
+                            </div>
                         </div>
                     </Col>
                 </Row>

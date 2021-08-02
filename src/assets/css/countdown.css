@@ -47,3 +47,43 @@
     font-family: 'Work Sans', sans-serif;
     display: block;
 }
+
+.btn-primary {
+    margin: 10px;
+    font-size: 14px;
+    padding: 8px 5px;
+    width: 100px;
+    background-color: transparent;
+}
+
+.btn-color {
+    background-color: #E91E63;
+    border: #E91E63;
+}
+
+.btn-color:hover {
+    background-color: #c71853;
+}
+
+.btn-border {
+    border: 1px solid #fff;
+}
+
+.btn-border:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid #fff;
+}
+
+.social-media {
+    justify-content: center;
+}
+
+.icon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.icon:hover {
+    color: #E91E63;
+}
